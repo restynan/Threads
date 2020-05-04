@@ -8,6 +8,7 @@ public class Main {
 
         obj1.start();
         obj2.start();
+        System.out.println();
     }
 }
 
