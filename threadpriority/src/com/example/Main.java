@@ -19,7 +19,7 @@ public class Main {
         Thread t2 = new Thread(()->{
 
             for (int i = 0; i < 5; i++) {
-                System.out.println("Hi");
+                System.out.println("Hi " +Thread.currentThread().getPriority());
                 try { Thread.sleep(500); } catch (Exception e) { }
             }
 
